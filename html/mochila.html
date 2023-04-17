@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/CSS" href="css/camisetabasica.css">
+    <link rel="stylesheet" type="text/CSS" href="css/casmietalarga.css">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
 
-    <title>Camiseta básica</title>
+    <title>Mochila BandVerse</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
 
     <div class="body__Page">
 
-        <h1>Camiseta Básica BandVerse</h1>
+        <h1>Mochila BandVerse</h1>
 
     </div>
 
@@ -47,32 +47,22 @@
     <div id="slider">
 
         <div class="container__compra">
-            <h1>10€</h1>
+            <h1 id="precio">35€</h1>
+
             
         </div>
 
         <div class="wrap">
         <div class="container__botones">
-            <h2>Selecciona talla</h2>
+            <h2>Selecciona tamaño</h2>
             <form action="" class="formulario">
                 <div class="radio">
-                    <input type="radio" name="talla" id="XS">
-                    <label for="XS">XS</label>
+                    <input type="radio" name="talla" id="XS" onclick="changeHeaderText()">
+                    <label for="XS">Grande</label>
 
-                    <input type="radio" name="talla" id="S">
-                    <label for="S">S</label>
+                    <input type="radio" name="talla" id="S" onclick="changeHeaderText()">
+                    <label for="S">Pequeña</label>
 
-                    <input type="radio" name="talla" id="M">
-                    <label for="M">M</label>
-
-                    <input type="radio" name="talla" id="L">
-                    <label for="L">L</label>
-
-                    <input type="radio" name="talla" id="XL">
-                    <label for="XL">XL</label>
-
-                    <input type="radio" name="talla" id="XXL">
-                    <label for="XXL">XXL</label>
             </div>
             </form>
         </div>
@@ -101,38 +91,26 @@
                 <div class="inner">
                     <div class="slide slide_1">
                     <div class="slide-content">
-                        <img src="imgs/hombreCamisetabasica.jpg" height="600px" width="500px">
+                        <img src="imgs/mochila2.jpg" height="600px" width="500px">
                     </div>
                     </div>
                     <div class="slide slide_2">
                     <div class="slide-content">
-                        <img src="imgs/mujerCamisetaBasica.jpg" height="600px" width="500px">
+                        <img src="imgs/mochilapequena.jpg" height="600px" width="500px">
                     </div>
                     </div>
-                    <div class="slide slide_3">
-                    <div class="slide-content">
-                        <img src="imgs/ninoCamisetabasica.jpg" height="600px" width="500px">
-                    </div>
-                    </div>
-                    <div class="slide slide_4">
-                    <div class="slide-content">
-                        <img src="imgs/ninaCamisetabasica.jpg" height="600px" width="500px">
-                    </div>
-                    </div>
+
                 </div>
             </div>
         </div>
         <div id="controls">
             <label for="slide1"></label>
             <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
         </div>
         <div id="bullets">
             <label for="slide1"></label>
             <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
+
         </div>
         </div>
 
@@ -186,3 +164,21 @@
 </html>
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+    function changeHeaderText() 
+    {
+        var header = document.getElementById("precio");
+        var radio = document.getElementById("S")
+        var radioDos = document.getElementById("XS")
+
+        if (radio.checked) 
+        {
+            header.textContent = "25€";
+        } 
+        else if (radioDos.checked) {
+            header.textContent = "35€";
+        }
+    }
+</script>
