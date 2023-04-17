@@ -22,7 +22,6 @@ header{
     top: 0;
     right: 0;
     z-index: 100;
-
     transition: all 300ms;
 }
 
@@ -49,7 +48,7 @@ header .logo{
 
 body
 {
-    background-color: rgb(175, 175, 167);
+    background-color: rgb(179, 179, 179);
 }
 
 .logo img{
@@ -270,7 +269,7 @@ nav :hover
 
 .body__Page h1
 {
-    margin-top: 7%;
+    margin-top: 8%;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     color: #8504ff;
@@ -602,4 +601,329 @@ footer{
 .username input:focus ~ span::before
 {
     width: 100%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: rgb(179, 179, 179);
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+    margin-left: 98%;
+    margin-bottom: 15px;
+
+
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+
+
+
+/* Main */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+/* - - - Tallas - - - */
+
+.wrap
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario input[type="radio"]
+{
+    display: none;
+}
+
+.formulario .radio label
+{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    background: rgb(82, 17, 126);
+    padding: 2px 3px 1px 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.formulario .radio label:hover
+{
+    transition: 0.1s ;
+    background: rgb(132, 15, 209);
+}
+
+.formulario .radio label:before
+{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #ae00ff;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.formulario input[type="radio"]:checked + label
+{
+    padding: 1px 10px;
+    background: rgb(82, 17, 126);
+    border-radius: 2px;
+    color: yellow;
+}
+
+.formulario input[type="radio"]:checked + label:before
+{
+    display: none;
+}
+
+.wrap .anadir
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrap .carrito
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    
+}
+
+.wrap .btn-neon
+{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 21px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s ease;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(82, 17, 126);
+    border-radius: 10px;
+    background-image: url(/imgs/carrito_fav.png);
+
+}
+
+.wrap .btn-neon:hover
+{
+    background: rgb(115, 1, 168);
+    box-shadow: 0px 0px 10px rgb(115, 1, 168), 0 0 40px;
+    transition-delay: 0.01s;
+}
+
+.wrap .btn-neon span
+{
+    position: absolute;
+    display: block;
+}
+
+
+.btn-add-cart:hover
+{
+    transition: 0.3s ease;
+    color: yellow;
 }

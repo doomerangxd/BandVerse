@@ -49,7 +49,7 @@ header .logo{
 
 body
 {
-    background-color: rgb(121, 77, 77);
+    background-color: rgb(192, 191, 191);
 }
 
 .logo img{
@@ -79,7 +79,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #000000;
+    color: black;
     font-size: 14px;
 }
 
@@ -169,7 +169,7 @@ nav :hover
 .cover h2{
     font-size: 60px;
     font-weight: 900;
-    color: #eeff00;
+    color: #8504ff;
     margin-top: -30px;
 }
 
@@ -270,10 +270,10 @@ nav :hover
 
 .body__Page h1
 {
-    margin-top: 7%;
+    margin-top: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    color: #ff1e00;
+    color: #8504ff;
     text-align: center;
 }
 
@@ -292,21 +292,11 @@ nav :hover
 }
 
 .container__article .box__article{
-    width: 300px;
-    height: 300px;
-    background: var(--color-esqueleto);
-    margin: 30px;
-    text-align: center;
-
-}
-
-.container__article .box__article2{
     width: 200px;
     height: 250px;
     background: var(--color-esqueleto);
-    margin: 30px;
+    margin: 20px;
     text-align: center;
-
 }
 
 .box__article:hover
@@ -315,162 +305,10 @@ nav :hover
     box-shadow: 5px 5px 10px #8504ff;
 }
 
-.box__article2:hover
-{
-    transition: ease-in;
-    box-shadow: 5px 5px 10px #8504ff;
-}
-
 .body__Page .container-testimonials
 {
     padding-top: 30px;
-
 }
-
-.body__Page .container-testimonials .descripcion
-{
-    color: black;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    
-}
-
-.body__Page .container-testimonials .botones
-{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.body__Page .container-testimonials .botones a .icon_instagram
-{
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.body__Page .container-testimonials .botones a .icon_instagram span
-{
-    height: 50px;
-    width: 50px;
-    display: block;
-    background: rgb(199, 199, 199);
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-.body__Page .container-testimonials .botones a .icon_instagram span:hover
-{
-
-    background: rgb(238, 255, 0);
-    transition: 0.2s ;
-
-}
-
-.body__Page .container-testimonials .botones a .icon_instagram span i
-{
-    font-size: 25px;
-    line-height: 52px;
-    text-align: center;
-}
-
-/* ---------------------------- */
-
-
-.body__Page .container-testimonials .botones .icon_facebook
-{
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.body__Page .container-testimonials .botones .icon_facebook span
-{
-    height: 50px;
-    width: 50px;
-    display: block;
-    background: rgb(199, 199, 199);
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-.body__Page .container-testimonials .botones .icon_facebook span:hover
-{
-
-    background: rgb(238, 255, 0);
-    transition: 0.2s ;
-}
-
-.body__Page .container-testimonials .botones .icon_facebook span i
-{
-    font-size: 25px;
-    line-height: 52px;
-    text-align: center;
-}
-
-
-/* ---------------------------- */
-
-
-.body__Page .container-testimonials .botones .icon_youtube
-{
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.body__Page .container-testimonials .botones .icon_youtube span
-{
-    height: 50px;
-    width: 50px;
-    display: block;
-    background: rgb(199, 199, 199);
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-.body__Page .container-testimonials .botones .icon_youtube span:hover
-{
-
-    background: rgb(238, 255, 0);
-    transition: 0.2s ;
-
-}
-
-.body__Page .container-testimonials .botones .icon_youtube span i
-{
-    font-size: 25px;
-    line-height: 52px;
-    text-align: center;
-}
-
-
-/* - - - Hasta aquí los botones - - - */
-
-
-
-
-
 
 .body__Page h2
 {
@@ -673,20 +511,20 @@ footer{
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
-    color: #181818;
+    color: #7a7a7a;
     font-size: 18px;
 
 }
 
 .box__footer h2{
     margin-bottom: 30px;
-    color: #181818;
+    color: #242424;
     font-weight: 700;
 }
 
 .box__footer a{
     margin-top: 10px;
-    color: #181818;
+    color: #7a7a7a;
     font-weight: 600;
 }
 
@@ -707,7 +545,7 @@ footer{
 
 .box__copyright p{
     margin-top: 20px;
-    color: black;
+    color: #7a7a7a;
 }
 
 .box__copyright hr{
@@ -716,17 +554,307 @@ footer{
     background-color: #7a7a7a;
 }
 
-.body__Page .foto
+
+/* - - - Imagenes tienda - - - */
+
+#slider 
 {
-    display: flex;
-    justify-content: center;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin: 0 auto;
+    width: 526px;
+    
+    max-width: 100%;
+    text-align: center;
 }
 
-.body__Page .foto2
+#slider input[type=radio] 
+{
+    display: none;
+}
+
+#slider label 
+{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+#slides 
+{
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#overflow 
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner 
+{
+    margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner 
+{
+    margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner 
+{
+    margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner 
+{
+    margin-left: -300%;
+}
+
+#slides .inner 
+{
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .slide 
+{
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#slides .slide_1 
+{
+    background: #00171F;
+}
+
+#slides .slide_2 
+{
+    background: #003459;
+}
+
+#slides .slide_3 
+{
+    background: #007EA7;
+}
+
+#slides .slide_4 
+{
+    background: #00A8E8;
+}
+
+#controls 
+{
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+#controls label 
+{
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover 
+{
+    opacity: 1;
+}
+
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
+
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets 
+{
+    margin: 150px 0 0;
+    text-align: center;
+}
+
+#bullets label 
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+}
+@media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+    margin: 0;
+    }
+    #slides {
+    max-width: calc(100% - 140px);
+    margin: 0 auto;
+    }
+}
+
+
+#slider .container__compra
 {
     display: flex;
     justify-content: center;
-    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#slider .container__compra h1
+{
+    font-size: 50px;
+}
+
+#slider .container__botones
+{
+    display: block;
+}
+
+.wrap
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario input[type="radio"]
+{
+    display: none;
+}
+
+.formulario .radio label
+{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    background: rgb(82, 17, 126);
+    padding: 5px 15px 5px 51px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.formulario .radio label:hover
+{
+    transition: 0.1s ;
+    background: rgb(132, 15, 209);
+}
+
+.formulario .radio label:before
+{
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #ae00ff;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+}
+
+.formulario input[type="radio"]:checked + label
+{
+    padding: 5px 15px;
+    background: rgb(82, 17, 126);
+    border-radius: 2px;
+    color: yellow;
+}
+
+.formulario input[type="radio"]:checked + label:before
+{
+    display: none;
+}
+
+.wrap .anadir
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrap .carrito
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    
+}
+
+.wrap .btn-neon
+{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 21px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s ease;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(82, 17, 126);
+    border-radius: 10px;
+    background-image: url(/imgs/carrito_fav.png);
+
+}
+
+.wrap .btn-neon:hover
+{
+    background: rgb(115, 1, 168);
+    box-shadow: 0px 0px 10px rgb(115, 1, 168), 0 0 40px;
+    transition-delay: 0.01s;
+}
+
+.wrap .btn-neon span
+{
+    position: absolute;
+    display: block;
+}
+
+.body__Page .slider .container_compra h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
 }
