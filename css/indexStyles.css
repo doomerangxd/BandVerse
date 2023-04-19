@@ -424,33 +424,10 @@ nav :hover
     color: blue;
 }
 
-.container__curiosidades .curiosidad2 h1
-{
-    color: black;
-    margin-top: 9%;
-}
-
-.container__curiosidades .curiosidad2 .cita
-{
-    display: inline;
-    font-family: 'Poppins', sans-serif;
-    width: 60%;
-    float: left;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 17%;
-    font-size: 17px;
-}
-
-.container__curiosidades .curiosidad2 .napalm
-{
-    margin-right: 10px;
-}
-
 .container__curiosidades .curiosidad3 h1
 {
     color: black;
-    margin-top: 9%;
+    margin-top: 15%;
 }
 
 .container__curiosidades .curiosidad3 h2
