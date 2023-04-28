@@ -24,6 +24,8 @@ const countProducts = document.querySelector('#contador-productos');
 const cartEmpty = document.querySelector('.cart-empty');
 const cartTotal = document.querySelector('.cart-total');
 
+const boton_enlace = document.getElementById("enlace_boton");
+
 productsList.addEventListener('click', e => {
 	if (e.target.classList.contains('btn-add-cart')) {
 		const product = e.target.parentElement;
@@ -77,6 +79,7 @@ const showHTML = () => {
 		cartEmpty.classList.remove('hidden');
 		rowProduct.classList.add('hidden');
 		cartTotal.classList.add('hidden');
+
 	} else {
 		cartEmpty.classList.add('hidden');
 		rowProduct.classList.remove('hidden');
@@ -134,6 +137,15 @@ const showHTML = () => {
 
 	valorTotal.innerText = `${totalD}€`;
 	countProducts.innerText = totalOfProducts;
+
+	$.ajax({
+		url:"verificar_compra.php",
+		method: "post",
+		data: {totalD : JSON.stringify(totalD) },
+	})
 };
+
+
+
 
 
