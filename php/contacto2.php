@@ -58,7 +58,7 @@
     </header>
 <body>
     <div class="root">
-        <form action="" class="form-register">
+        <form method="post" action="enviar_contacto.php" class="form-register">
             <div class="form-register__header">
                 <ul class="progressbar">
                     <li class="progressbar__option active">Paso 1</li>
@@ -73,10 +73,10 @@
                         <h2 class="step__title">Información Básica<small> (Paso 1)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="email" placeholder="Nombre" class="step__input">
-                        <input type="text" placeholder="Apellidos" class="step__input">
-                        <input type="password" placeholder="Correo Electrónico" class="step__input">
-                        <input type="text" placeholder="Nº de Telf." class="step__input">
+                        <input type="text" placeholder="Nombre" class="step__input" name="nombre">
+                        <input type="text" placeholder="Apellidos" class="step__input" name="apellidos">
+                        <input type="email" placeholder="Correo Electrónico" class="step__input" name="email">
+                        <input type="text" placeholder="Nº de Telf." class="step__input" name="telefono">
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--next" data-to_step="2" data-step="1">Siguiente</button>
@@ -87,8 +87,8 @@
                         <h2 class="step__title">Asunto<small> (Paso 2)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="text" placeholder="Motivo" class="step__input">
-                        <textarea rows="4" cols="80" placeholder="Mensaje" class="step__input"></textarea>
+                        <input type="text" placeholder="Motivo" class="step__input" name="motivo">
+                        <textarea rows="4" cols="80" placeholder="Mensaje" class="step__input" name="mensaje"></textarea>
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--back" data-to_step="1" data-step="2">Regresar</button>
@@ -97,13 +97,13 @@
                 </div>
                 <div class="step" id="step-3">
                     <div class="step__header">
-                        <h2 class="step__title">Redes sociales y fotografías<small> (Paso 3)</small></h2>
+                        <h2 class="step__title">Contacto Empresarial<small> (Paso 3)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="text" placeholder="(Opcional) Empresas" class="step__input">
+                        <input type="text" placeholder="(Opcional) Empresas" class="step__input" name="empresas">
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--back" data-to_step="2" data-step="3">Regresar</button>
-                        <button type="submit" class="step__button">Enviar</button>
+                        <button type="submit" class="step__button" name="submit">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -136,8 +136,8 @@
 
         <div class="box__footer">
             <h2>Nosotros</h2>
-            <a href="#">Acerca de</a>
-            <a href="#">Politica de Cookies</a>             
+            <a href="acercade.php">Acerca de</a>
+            <a href="">Politica de Cookies</a>             
         </div>
 
         <div class="box__footer">

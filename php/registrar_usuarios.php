@@ -38,6 +38,67 @@
         exit();
     }
 
+    if(empty($nombre))
+    {
+        echo '<script>
+            alert("Debes introducir un nombre")
+            window.location = "contacto2.php";
+        </script>';
+
+        exit();
+    }
+
+    if(empty($apellidos))
+    {
+        echo '<script>
+            alert("Debes introducir los apellidos")
+            window.location = "contacto2.php";
+        </script>';
+
+        exit();
+    }
+
+    if(empty($email))
+    {
+        echo '<script>
+            alert("Debes introducir un correo electrónico")
+            window.location = "contacto2.php";
+        </script>';
+
+        exit();
+    }
+
+    if(empty($username))
+    {
+        echo '<script>
+            alert("Debes introducir una contraseña")
+            window.location = "contacto2.php";
+        </script>';
+
+        exit();
+    }
+
+    if(empty($contrasena))
+    {
+        echo '<script>
+            alert("Debes introducir un nombre de usuario")
+            window.location = "contacto2.php";
+        </script>';
+
+        exit();
+    }
+
+    if(!filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+        echo '
+        <script>
+            alert("Introduce un email válido, por favor.");
+            window.location = "register.php";
+        </script>';
+
+        exit();
+    }
+
     $execute = mysqli_query($conn, $query);
 
     if($execute)

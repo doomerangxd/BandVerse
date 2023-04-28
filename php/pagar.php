@@ -1,4 +1,11 @@
 
+<?php
+
+    session_start();
+
+    include 'conexion.php';
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +16,7 @@
     <link rel="stylesheet" type="text/CSS" href="css/loginStyle.css">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
 
-    <title>Registrase en BandVerse</title>
+    <title>Pago</title>
 </head>
 
 <header id="header">
@@ -24,17 +31,12 @@
 <body>
 
     <div class="loginForm">
-        <h1>Registrarse</h1>
+        <h1>Pago final</h1>
 
-        <form method="POST" action="registrar_usuarios.php">
-
-            <div class="username">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-
-            </div>
+        <form method="POST" action="verificar_compra.php">
 
             <div class="username">
-                <input type="text" name="apellidos" placeholder="Apellidos" required>
+                <input type="text" name="nombre" placeholder="Nombre y apellidos" required>
 
             </div>
 
@@ -44,20 +46,20 @@
             </div>
 
             <div class="username">
-                <input type="text" name="username" placeholder="Nombre de usuario" required>
-
-            </div>
-
-            <div class="username">
                 <input type="password" name="contrasena" placeholder="Contraseña" required>
 
             </div>
 
+            <div class="username">
+                <input type="password" name="tarjeta" placeholder="Nº de tarjeta" required>
 
-            <input type="submit" value="Acceder" name="register">
+            </div>
+
+
+            <input type="submit" value="Pagar" name="register">
 
             <div class="register">
-                ¿Ya tienes cuenta? <a href="login.php">Iniciar sesión</a>
+
             </div>
 
         </form>

@@ -1,3 +1,9 @@
+<?php
+
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +14,7 @@
     <link rel="stylesheet" type="text/CSS" href="css/reportsStyle.css">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
 
-    <title>Iniciar sesión en BandVerse</title>
+    <title>Reportes</title>
 </head>
 
 <body>
@@ -18,7 +24,7 @@
     <div class="loginForm">
         <h1>Reportar un problema</h1>
 
-        <form method="post" action="enviar_reporteDos.php">
+        <form method="post" action="enviar_reporteDos.php" enctype="multipart/form-data">
 
             <label>¿Dónde se encuentra el problema?</label>
             <div class="select">
@@ -51,7 +57,7 @@
             </div>
 
 
-            <input class="btnSend" type="submit" value="Enviar">
+            <input class="btnSend" type="submit" name="btn_enviar" value="Enviar">
 
 
         </form>

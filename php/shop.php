@@ -2,6 +2,8 @@
 <?php
 
     session_start();
+
+    include 'conexion.php';
 ?>
 
 <!DOCTYPE html>
@@ -71,6 +73,7 @@
 
                 <h1>La tienda de BandVerse</h1>
                 <h2>El mejor merchandising que puedas imaginar ( ͡° ͜ʖ ͡°)</h2>
+
             
                 <!--<header>-->
                     
@@ -117,10 +120,14 @@
                                     </svg>
                                 </div>
                             </div>
-        
+
+
+                            <form method="post" action="verificar_compra.php">
                             <div class="cart-total hidden">
                                 <h3>Total:</h3>
                                 <span class="total-pagar">$200</span>
+                                <a href="pagar.php"><input type="button" value="Comprar" name="comprar" class="cart-total hiden" style="background-color: rgb(132, 0, 255); color: #fff; border:none; boder-radius:9px; padding:10px 20px; font-size:15px; cursor:pointer; text-decoration: none;"></input></a>
+                            </form>
                             </div>
                             <p class="cart-empty">El carrito está vacío</p>
                         </div>
@@ -589,11 +596,10 @@
                 </div>
         
                 <script src="js/shopping-cart.js"></script>
+
+                </div>
             </body>
         </html>
-
-        </div>
-
 
 
 
@@ -621,8 +627,8 @@
 
                 <div class="box__footer">
                     <h2>Nosotros</h2>
-                    <a href="#">Acerca de</a>
-                    <a href="#">Politica de Cookies</a>             
+                    <a href="acercade.php">Acerca de</a>
+                    <a href="">Politica de Cookies</a>             
                 </div>
 
                 <div class="box__footer">

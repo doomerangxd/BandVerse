@@ -20,11 +20,11 @@
     {
         echo '
         <script>
-            alert("No se ha encontrado el usuario, inténtalo de nuevo");
+            alert("Usuario o contraseña incorrectos, inténtalo de nuevo");
             window.location = "login.php";
         </script>';
 
-        exit;
+        exit();
     }
 
 ?>

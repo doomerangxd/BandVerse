@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/CSS" href="css/loginStyle.css">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
 
-    <title>Iniciar sesión en BandVerse</title>
+    <title>Iniciar sesión</title>
 </head>
 
 <header id="header">

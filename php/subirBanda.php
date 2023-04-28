@@ -1,3 +1,10 @@
+<?php
+
+    session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,6 +22,7 @@
                     <li class="progressbar__option active">Paso 1</li>
                     <li class="progressbar__option">Paso 2</li>
                     <li class="progressbar__option">Paso 3</li>
+                    <li class="progressbar__option">Paso 4</li>
                 </ul>
                 <h1 class="form-register__title">¡Da el salto!</h1>
             </div>
@@ -24,9 +32,10 @@
                         <h2 class="step__title">Información Básica<small> (Paso 1)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="email" placeholder="Nombre de la Banda/Artista" class="step__input">
-                        <input type="text" placeholder="Género musical" class="step__input">
-                        <input type="password" placeholder="Año de formación" class="step__input">
+                        <input type="text" placeholder="Nombre de la Banda/Artista" class="step__input" name="nombre">
+                        <input type="text" placeholder="Localidad" class="step__input" name="localidad">
+                        <input type="text" placeholder="Género musical" class="step__input" name="genero">
+                        <input type="text" placeholder="Año de formación" class="step__input" name="formacion">
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--next" data-to_step="2" data-step="1">Siguiente</button>
@@ -34,13 +43,15 @@
                 </div>
                 <div class="step" id="step-2">
                     <div class="step__header">
-                        <h2 class="step__title">Información detallada<small> (Paso 2)</small></h2>
+                        <h2 class="step__title">Miembros de la formación<small> (Paso 2)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="text" placeholder="¿Banda en activo? (Si/No)" class="step__input">
-                        <input type="text" placeholder="Sello discográfico (Opcional)" class="step__input">
-                        <textarea rows="4" cols="80" placeholder="Discografía y año de publicación" class="step__input"></textarea>
-                        <textarea rows="4" cols="80" placeholder="Miembros de la formación" class="step__input"></textarea>
+                    <textarea readonly="readonly" class="step__input">Añadir tantos miembros como haya en la formación
+                        </textarea>
+                        <button id="agregar" class="step__input">Agregar</button>
+                            <div id="dinamic"></div>
+                            
+                            <script src="js/main.js"></script>
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--back" data-to_step="1" data-step="2">Regresar</button>
@@ -49,22 +60,32 @@
                 </div>
                 <div class="step" id="step-3">
                     <div class="step__header">
-                        <h2 class="step__title">Redes sociales y fotografías<small> (Paso 3)</small></h2>
+                        <h2 class="step__title">Fotografías de los miembros<small> (Paso 3)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="text" placeholder="(opcional) Link a Instagram" class="step__input">
-                        <input type="text" placeholder="(opcional) Link a Facebook" class="step__input">
-                        <input type="text" placeholder="(opcional) Link a YouTube" class="step__input">
-                        <textarea readonly="readonly" class="step__input">Subir 3 fotos: Una de portada (200x250px)
-Dos para el perfil, en horizontal (500x350px)
+                    <textarea readonly="readonly" class="step__input">Añadir tantas fotos como miembros haya en la formación
                         </textarea>
-                        <input type="file" placeholder="Foto portada" class="step__input">
-                        <input type="file" placeholder="Foto portada" class="step__input">
-                        <input type="file" placeholder="Foto portada" class="step__input">
+                        <button id="agregarDos" class="step__input">Agregar</button>
+                            <div id="dinamicDos"></div>
+                            
+                            <script src="js/main_dos.js"></script>
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--back" data-to_step="2" data-step="3">Regresar</button>
-                        <button type="submit" class="step__button">Registrarse</button>
+                        <button type="button" class="step__button step__button--next" data-to_step="4" data-step="3">Siguiente</button>
+                    </div>
+                    </div>
+                <div class="step" id="step-4">
+                    <div class="step__header">
+                        <h2 class="step__title">Fotografías<small> (Paso 4)</small></h2>
+                    </div>
+                    <div class="step__body">
+                        <textarea readonly="readonly" class="step__input">Agregar cuantas sea necesaria de cada miembro, vertical (200x250px)
+                        </textarea>
+                    </div>
+                    <div class="step__footer">
+                        <button type="button" class="step__button step__button--back" data-to_step="3" data-step="4">Regresar</button>
+                        <button type="submit" class="step__button">Registrar</button>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,9 @@
+<?php
+
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -29,7 +35,27 @@
                         <li><a href="shop.php">Tienda</a></li>
                         <li><a href="conciertos.php">Conciertos</a></li>
                         <li><a href="contacto2.php">Contacto</a></li>
-                        <li><a href="login.php" class="logear">Login/Register</a></li>
+                        <li><a href="<?php                         
+                        if(isset($_SESSION['usuario']))
+                        {
+                            echo 'cerrar_sesion.php';
+                        }
+                        else
+                        {
+                            echo 'login.php';
+
+                        }?>"
+                        class="logear"><?php
+                        if(isset($_SESSION['usuario']))
+                        {
+                            echo 'Logout';
+                        }
+
+                        else
+                        {
+                            echo 'Login/Register';
+                        }
+                            ?></a></li>
                     </ul>
                 </nav>
 
@@ -137,8 +163,8 @@
 
                 <div class="box__footer">
                     <h2>Nosotros</h2>
-                    <a href="#">Acerca de</a>
-                    <a href="#">Politica de Cookies</a>             
+                    <a href="acercade.php">Acerca de</a>
+                    <a href="">Politica de Cookies</a>             
                 </div>
 
                 <div class="box__footer">

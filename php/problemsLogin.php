@@ -18,31 +18,17 @@
     <div class="loginForm">
         <h1>Encuentra tu cuenta de BandVerse</h1>
 
-        <form method="post">
+        <form method="post" action="encontrar_usuarios.php">
 
             <div class="username">
-                <input  id="txtMail" type="email" required>
-                <label>Correo Electrónico o Nombre de Usuario</label>
+                <input  id="txtMail" type="email" name="correo" placeholder="Introduzca su correo electrónico" required>
+                
             </div>
 
             <input id="btnSubmit" type="submit" value="Enviar Código">
 
-            <script>
-
-                let mail = document.getElementById("txtMail");
-
-                function showMessage()
-                {
-                    alert("Hemos enviado un correo con el código de recuperación a " + txtMail.value)
-                }
-
-                document.getElementById("btnSubmit").onclick = showMessage;
-
-
-            </script>
-
             <div class="register">
-                Igual ya me acuerdo... <a href="login.html">Iniciar Sesión</a>
+                Igual ya me acuerdo... <a href="login.php">Iniciar Sesión</a>
             </div>
 
         </form>

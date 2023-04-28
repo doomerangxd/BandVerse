@@ -196,8 +196,8 @@
 
                 <div class="box__footer">
                     <h2>Nosotros</h2>
-                    <a href="#">Acerca de</a>
-                    <a href="#">Politica de Cookies</a>             
+                    <a href="acercade.php">Acerca de</a>
+                    <a href="">Politica de Cookies</a>             
                 </div>
 
                 <div class="box__footer">

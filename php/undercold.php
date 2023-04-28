@@ -10,9 +10,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dry River</title>
+    <title>Under Cold Sun</title>
 
-    <link rel="stylesheet" href="css/bandaDryRiverStyle.css">
+    <link rel="stylesheet" href="css/bandaUndersStyles.css">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -72,29 +72,28 @@
 
         <div class="body__Page">
 
-                <h1>Dry River</h1>
-                <h2>Castellón de la Plana, Com. Valenciana, Spain</h2>
+                <h1>Under Cold Sun</h1>
+                <h2>Castellón, Com. Valenciana, Spain</h2>
             
             <div class="container-testimonials">
 
-            <p class="descripcion"> Dry river es una banda de Rock/Metal progresivo formada hace años ya</p><p class="descripcion"> pasando por distintas formaciones y 
-                empezando como una banda de covers 
-                <p class="descripcion" >Su ritmo se caracteriza por una mezcla de melodias dulces y riffs energéticos.<p class="descripcion"> Su último trabajo "Cuarto Creciente" está recibiendo muy buenas
-                criticas por parte de revistas reconocidas dentro del panorama del metal</p></p>
+            <p class="descripcion"> Under Cold Sun es una banda de thrash metal formada en 2010,<p class="descripcion"> sus riffs y melodias agresivas cautivan a su gran público
+                </p><p class="descripcion"> Cuentan con un total de 4 discos de estudio
+                
             </p>
 
             <div class="botones">
                 
-                <a href="https://www.instagram.com/dryriver/"><div class="icon_instagram">
+                <a href="https://www.instagram.com/linopia_/"><div class="icon_instagram">
                     <span><i class="fab fa-instagram"></i></span>
                 </div></a>
                 
 
-                <a href="https://www.facebook.com/DryRiverCS"><div class="icon_facebook">
+                <a href="https://www.facebook.com/linopiaoficial/"><div class="icon_facebook">
                     <span><i class="fab fa-facebook-f"></i></span>
                 </div></a>
 
-                <a href="https://www.youtube.com/user/DryRiverBand"><div class="icon_youtube">
+                <a href="https://www.youtube.com/channel/UCIy8iFG-zFSN_yd6aXkaSyw"><div class="icon_youtube">
                     <span class="youtube"><i class="fab fa-youtube"></i></span>
                 </div></a>
 
@@ -102,32 +101,30 @@
             </div>
 
             <div class="foto">
-                <img src="imgs/dryriverfoto.jpg" width="500px" height="350px">
-                <img class="foto2" src="imgs/dryriverfoto2.jpg" width="500px" height="350px">
+                <img src="imgs/underDos.jpg" width="500px" height="330px">
+                <img class="foto2" src="imgs/underLinea.jpg" width="500px" height="330px">
 
             </div>
 
             <div>
                 <h1>Discografía</h1>
                 <div class="container__article">
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-El-Circo-de-la-Tierra-p360303342" ><img src="imgs/circodelatierra.jpeg" width="300px" height="300px"> </a> El circo de la Tierra (2011) </div>
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-Quien-tenga-algo-que-decir-Que-calle-para-siempre-p360297984"><img src="imgs/quientenga.jpg" width="300px" height="300px"> </a> Quien Tenga Algo Que Decir... Que Calle Para Siempre (2014)</div>
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-DVD-Rock-&-Rollo-Y-cana-p360304756" ><img src="imgs/rockrollo.jfif" width="300px" height="300px"> </a> Rock & Rollo.. ¡Y caña! - Live (2017)</div>
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-2038-p360304758" ><img src="imgs/2038.jfif" width="300px" height="300px"> </a> 2038 (2018)</div>
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-DVD-DC-Directo-p360304759" ><img src="imgs/dc.jpg" width="300px" height="300px"> </a> DC - Live (2019)</div>
-                    <div class="box__article"> <a href="http://www.dry-river.com/tienda-dryriver/CD-Cuarto-Creciente-Nuevo-album-p492224455" ><img src="imgs/cuartocreciente.jpg" width="300px" height="300px"> </a> Cuarto Creciente (2022)</div>
+                    <div class="box__article"> <a href="" ><img src="imgs/primerDiscoUndercold.jpg" width="300px" height="300px"> </a> ...Prepare for Pain (2012)</div>
+                    <div class="box__article"> <a href="" ><img src="imgs/apocaliptic.jpg" width="300px" height="300px"> </a> Apocalyptic Destruction (2015)</div>
+                    <div class="box__article"> <a href="" ><img src="imgs/newbeginning.jpg" width="300px" height="300px"> </a> A new beginning (2017)</div>
+                    <div class="box__article"> <a href="" ><img src="imgs/devotion.jpg" width="300px" height="300px"> </a> Devotion (2021)</div>
                 </div>
             </div>
 
             <div>
                 <h1>Miembros</h1>
                 <div class="container__article">
-                    <div class="box__article2"> <img src="imgs/angel.jpg" width="200px" height="250px"> Angel Belinchón (Voz) </div>
-                    <div class="box__article2"> <img src="imgs/matias.jpg" width="200px" height="250pxpx"> Matias Oreo (Guitarra)</div>
-                    <div class="box__article2"> <img src="imgs/daviddryriver.jpg" width="200px" height="250pxpx"> David (Bajo)</div>
-                    <div class="box__article2"> <img src="imgs/marti.jpg" width="200px" height="250px"> Martí (Teclados)</div>
-                    <div class="box__article2"> <img src="imgs/guillermo.jpg" width="200px" height="250px"> Guillermo (Guitarra)</div>
-                    <div class="box__article2"> <img src="imgs/pedro.jpg" width="200px" height="250px">  Pedro (Batería)</div>
+                    <div class="box__article2"> <img src="imgs/portadaUndercold.jpg" width="200px" height="250px"> Pablo Prió (Voz) </div>
+                    <div class="box__article2"> <img src="imgs/pablogargallo.jpg" width="200px" height="250px"> Pablo Gargallo (Guitarra)</div>
+                    <div class="box__article2"> <img src="imgs/javi.JPG" width="200px" height="250px"> Diego Moreno (Batería)</div>
+                    <div class="box__article2"> <img src="imgs/nacho.JPG" width="200px" height="250px"> Porky (Guitarra)</div>
+                    <div class="box__article2"> <img src="imgs/nacho.JPG" width="200px" height="250px"> Fernando (Bajo)</div>
+
                 </div>
 
             </div>
