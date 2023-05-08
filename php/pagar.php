@@ -46,7 +46,7 @@
             </div>
 
             <div class="username">
-                <input type="password" name="contrasena" placeholder="Contraseña" required>
+                <input type="text" name="contrasena" placeholder="Contraseña" required>
 
             </div>
 

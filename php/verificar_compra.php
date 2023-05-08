@@ -63,7 +63,7 @@
         exit();
     }
 
-    $ejec = mysqli_query($conn, "INSERT INTO compras (precio) VALUES ('$tarjeta');");
+    $ejec = mysqli_query($conn, "INSERT INTO clientes (nombre_apellidos, correo, contrasena, id_usuario) VALUES ('$nombre', '$email', '$password', 8);");
 
     if($ejec)
     {

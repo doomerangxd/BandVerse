@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
     $record_files = $_FILES["record_file"];
 
     // Insert the band information into the database
-    $sql = "INSERT INTO bandas (nombre, ciudad, genero, formacion, descripcion, portada, foto_izquierda, foto_derecha, color_fondo, letra) VALUES ('$band_name', '$city', '$genre', '$year_formed', '$description', '$portada_name', '$izquierda_name', '$derecha_name', '$color_fondo', 'a')";
+    $sql = "INSERT INTO bandas (nombre, ciudad, genero, formacion, descripcion, portada, foto_izquierda, foto_derecha, color_fondo, letra,id_usuario) VALUES ('$band_name', '$city', '$genre', '$year_formed', '$description', '$portada_name', '$izquierda_name', '$derecha_name', '$color_fondo', 'a',8)";
     if (mysqli_query($conn, $sql)) {
 
         // Get the ID of the newly inserted band

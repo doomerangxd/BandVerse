@@ -13,7 +13,7 @@
         $mensaje = trim($_POST['mensaje']);
         $empresas = trim($_POST['empresas']);
 
-        $query = "INSERT INTO `contacto`(`nombre`, `apellidos`, `email`, `telf`, `motivo`, `mensaje`, `empresa`) VALUES ('$nombre','$apellidos','$email','$telefono','$motivo','$mensaje','$empresas')";
+        $query = "INSERT INTO `contacto`(`nombre`, `apellidos`, `email`, `telf`, `motivo`, `mensaje`, `empresa`, id_usuario) VALUES ('$nombre','$apellidos','$email','$telefono','$motivo','$mensaje','$empresas', 8)";
 
         $execute = mysqli_query($conn, $query);
         

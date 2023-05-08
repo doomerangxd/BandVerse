@@ -84,16 +84,16 @@
 
             <div class="botones">
                 
-                <a href="https://www.instagram.com/linopia_/"><div class="icon_instagram">
+                <a href="https://www.instagram.com/undercoldsunband/?hl=es"><div class="icon_instagram">
                     <span><i class="fab fa-instagram"></i></span>
                 </div></a>
                 
 
-                <a href="https://www.facebook.com/linopiaoficial/"><div class="icon_facebook">
+                <a href="https://www.facebook.com/undercoldsun"><div class="icon_facebook">
                     <span><i class="fab fa-facebook-f"></i></span>
                 </div></a>
 
-                <a href="https://www.youtube.com/channel/UCIy8iFG-zFSN_yd6aXkaSyw"><div class="icon_youtube">
+                <a href="https://www.youtube.com/@undercoldsun"><div class="icon_youtube">
                     <span class="youtube"><i class="fab fa-youtube"></i></span>
                 </div></a>
 
@@ -109,10 +109,10 @@
             <div>
                 <h1>Discografía</h1>
                 <div class="container__article">
-                    <div class="box__article"> <a href="" ><img src="imgs/primerDiscoUndercold.jpg" width="300px" height="300px"> </a> ...Prepare for Pain (2012)</div>
-                    <div class="box__article"> <a href="" ><img src="imgs/apocaliptic.jpg" width="300px" height="300px"> </a> Apocalyptic Destruction (2015)</div>
-                    <div class="box__article"> <a href="" ><img src="imgs/newbeginning.jpg" width="300px" height="300px"> </a> A new beginning (2017)</div>
-                    <div class="box__article"> <a href="" ><img src="imgs/devotion.jpg" width="300px" height="300px"> </a> Devotion (2021)</div>
+                    <div class="box__article"> <a href="https://undercoldsun.bandcamp.com/album/prepare-for-pain" ><img src="imgs/primerDiscoUndercold.jpg" width="300px" height="300px"> </a> ...Prepare for Pain (2012)</div>
+                    <div class="box__article"> <a href="https://undercoldsun.bandcamp.com/album/apocalyptic-destruction" ><img src="imgs/apocaliptic.jpg" width="300px" height="300px"> </a> Apocalyptic Destruction (2015)</div>
+                    <div class="box__article"> <a href="https://undercoldsun.bandcamp.com/album/a-new-beginning" ><img src="imgs/newbeginning.jpg" width="300px" height="300px"> </a> A new beginning (2017)</div>
+                    <div class="box__article"> <a href="https://undercoldsun.bandcamp.com/album/devotion" ><img src="imgs/devotion.jpg" width="300px" height="300px"> </a> Devotion (2021)</div>
                 </div>
             </div>
 
@@ -121,9 +121,9 @@
                 <div class="container__article">
                     <div class="box__article2"> <img src="imgs/portadaUndercold.jpg" width="200px" height="250px"> Pablo Prió (Voz) </div>
                     <div class="box__article2"> <img src="imgs/pablogargallo.jpg" width="200px" height="250px"> Pablo Gargallo (Guitarra)</div>
-                    <div class="box__article2"> <img src="imgs/javi.JPG" width="200px" height="250px"> Diego Moreno (Batería)</div>
-                    <div class="box__article2"> <img src="imgs/nacho.JPG" width="200px" height="250px"> Porky (Guitarra)</div>
-                    <div class="box__article2"> <img src="imgs/nacho.JPG" width="200px" height="250px"> Fernando (Bajo)</div>
+                    <div class="box__article2"> <img src="imgs/diegoUndercold.jpg" width="200px" height="250px"> Diego Moreno (Batería)</div>
+                    <div class="box__article2"> <img src="imgs/porky.jpg" width="200px" height="250px"> Porky (Guitarra)</div>
+                    <div class="box__article2"> <img src="imgs/fernando.jpg" width="200px" height="250px"> Fernando (Bajo)</div>
 
                 </div>
 

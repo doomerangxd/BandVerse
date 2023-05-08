@@ -90,12 +90,12 @@
                 <div class="box__article"> <a href="angelusapatrida.php" ><img src="imgs/Angelus-Apatrida.jpg" width="200px" height="250px"> </a> Angelus Apatrida</div>
                 <?php 
                 
-                $consulta = "SELECT id FROM bandas WHERE id > 15 ORDER BY ID DESC LIMIT 1";
+                $consulta = "SELECT id FROM bandas WHERE id >= 3 ORDER BY ID DESC LIMIT 1";
                 $resultado = mysqli_query($conn, $consulta);
                 $columna = mysqli_fetch_row($resultado);
                 $count = (int) $columna[0];
 
-                if($count === 19 || $count === 20 || $count === 21)
+                if($count === 4 || $count === 5 )
                 {
                     ?><div class="box__article"> <a href="nueva_banda.php" ><img src="uploads/<?php echo $row["portada"]; ?>" width="200px" height="250px"> </a> <?php echo $row["nombre"]; ?> </div><?php  
                 }

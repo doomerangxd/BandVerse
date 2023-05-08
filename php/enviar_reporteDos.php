@@ -16,7 +16,7 @@ move_uploaded_file($temp,$carpeta. '/'. $archivo);
 
 $query = "INSERT INTO pruebas(ruta) VALUES('$archivo')";
 
-$queryDos = "INSERT INTO `reportes`(`localizacion`, `descripcion`, `ruta`) VALUES ('$valor','$descripcion','$ruta')";
+$queryDos = "INSERT INTO `reportes`(`localizacion`, `descripcion`, `ruta`, id_usuario) VALUES ('$valor','$descripcion','$ruta', 8)";
 
 $execute = mysqli_query($conn, $queryDos);
 
